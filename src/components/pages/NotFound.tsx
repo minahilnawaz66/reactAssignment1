@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 export default function NotFound() {
 	const navigate = useNavigate();
 	const onBackClick = () => {
-		navigate("/home" , { state: { message: "Hello world"} });
+		navigate("/home");
 	};
 	return (
 		<>
